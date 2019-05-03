@@ -2,10 +2,16 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://doc-khumalo.github.io/displayMoviesDb/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doc-Khumalo/displayMovieDb.git"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
+    "gh-pages": "^2.0.1",
     "immutable": "^4.0.0-rc.12",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -21,7 +27,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
