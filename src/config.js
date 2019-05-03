@@ -5,8 +5,8 @@ export default {
   header: 'Movie listings',
   filterTextHeader: 'No movies matched filter criteria',
   filterText: 'Consider adjusting filters',
-  genreDefaultValue: 'Select genres',
-  ratingDefaultValue: 'Minimum rating',
+  genreDefaultValue: 'Genres',
+  ratingDefaultValue: 'Rating',
   options: [
     { value: 1, label: 'One' },
     { value: 2, label: 'Two' },
